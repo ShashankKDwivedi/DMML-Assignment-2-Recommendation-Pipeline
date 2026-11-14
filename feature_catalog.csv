@@ -1,0 +1,8 @@
+Feature,Entity,Definition,Source,Reuse
+user_activity_count,User,Number of training interactions for user,train.csv,Training and prediction
+user_avg_rating,User,Mean training rating for user,train.csv,Training and prediction
+days_since_last_interaction,User,Days from latest training timestamp to user's last interaction,user_activity.csv,Training and prediction
+item_popularity,Item,Number of unique training interactions for item,train.csv,Training and prediction
+item_avg_rating,Item,Mean training rating for item,train.csv,Training and prediction
+popularity_percentile,Item,Percentile rank of item popularity,item_popularity.csv,Training and prediction
+is_positive,Interaction,1 when rating >= 4 else 0,train.csv,Training and evaluation

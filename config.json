@@ -1,0 +1,6 @@
+{
+  "random_seed": 2026,
+  "top_k": 5,
+  "time_split_quantile": 0.80,
+  "dataset": "documented synthetic recommendation dataset"
+}

@@ -1,0 +1,6 @@
+table,issue,count,details
+interactions,duplicates,1,duplicate rows
+interactions,invalid_rating,1,record separated to errors
+interactions,invalid_timestamp,1,record separated to errors
+interactions,invalid_user_fk,1,record separated to errors
+interactions,invalid_item_fk,1,record separated to errors

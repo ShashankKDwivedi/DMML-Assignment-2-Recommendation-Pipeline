@@ -1,0 +1,21 @@
+PIPELINE STATUS: SUCCESS
+[
+  {
+    "Model": "PopularityBaseline",
+    "Precision@K": 0.04390243902439025,
+    "Recall@K": 0.08299457994579945,
+    "NDCG@K": 0.06137039299047432,
+    "Coverage": 0.2,
+    "Diversity": 0.7487804878048779,
+    "Users evaluated": 164
+  },
+  {
+    "Model": "ItemBasedCollaborativeFiltering",
+    "Precision@K": 0.03780487804878049,
+    "Recall@K": 0.06964769647696477,
+    "NDCG@K": 0.05884051104571426,
+    "Coverage": 0.4875,
+    "Diversity": 0.8121951219512195,
+    "Users evaluated": 164
+  }
+]
